@@ -1,0 +1,9 @@
+name: test-autogluon
+channels:
+  - anaconda
+dependencies:
+  - pip
+  - pip:
+    - numpy
+    - mxnet
+    - autogluon
