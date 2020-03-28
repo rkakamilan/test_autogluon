@@ -2,7 +2,7 @@ name: test-autogluon
 channels:
   - anaconda
 dependencies:
-  - pip
+  - python=3.7
   - pip:
     - numpy
     - mxnet
